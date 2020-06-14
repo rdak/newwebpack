@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"noImplicitAny": false,
+		"module": "commonjs",
+		"target": "es2015",
+		"lib": ["dom", "es2017"],
+		"jsx": "react",
+		"allowJs": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"allowSyntheticDefaultImports": true,
+		"noEmit": false
+	},
+	"include": ["src"],
+	"exclude": [
+		"__tests__",
+		"node_modules/**",
+		"bower_components",
+		"ace-builds",
+		"dist",
+		"/tmp",
+		"**/_obsolete/*"
+	]
+}
